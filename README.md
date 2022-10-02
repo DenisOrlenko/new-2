@@ -1,2 +1,2 @@
-# new-2
- занятие 1 с андреем данилко
+# goit-markup-hw-07
+ bem-sass

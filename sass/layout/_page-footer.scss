@@ -1,0 +1,19 @@
+/* фон - футер */
+.page-footer {
+  background-color: var(--footer-bg-color);
+}
+
+.page-footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-title-label-thumb {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.address-socials-input-thumb {
+  display: flex;
+}

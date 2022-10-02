@@ -1,0 +1,44 @@
+/* -----------------masters---------------- */
+.masters {
+  background-color: var(--secondary-bg-color);
+}
+
+.masters__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--list-gap));
+}
+
+.masters__list > .masters-item {
+  flex-basis: calc(100% / 4 - var(--list-gap));
+  margin-left: var(--list-gap);
+
+  box-shadow: var(--shadow);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--primary-bg-color);
+}
+
+.masters-item__image {
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+.masters-item__content {
+  padding-bottom: 30px;
+}
+
+.masters-item__text {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* h3 оформление -2 */
+.masters-item__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
